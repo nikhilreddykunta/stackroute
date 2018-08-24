@@ -1,0 +1,17 @@
+body {
+	background: grey;
+}
+
+div {
+	width: 500px;
+	margin: auto;
+}
+
+#outline1, #outline2 {
+	width: 500px;
+	height: 20px;
+	//margin: auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid white;
+}
