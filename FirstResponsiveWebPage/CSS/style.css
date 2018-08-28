@@ -1,0 +1,99 @@
+body {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background-color: #1C43FF;
+	color: white;
+	margin: 0;
+}
+
+body,html {
+	height: 100%;
+}
+
+header {
+	padding: 1px;
+	text-align: center;
+	letter-spacing: 30px;
+	font-size: 25px;
+	//background-color: #1C43FF;
+	//margin: 0;
+	
+
+}
+
+header img {
+	float: left;
+	height: 100px;
+	border-radius: 100%;
+	margin-left: 120px;
+	margin-top: 40px;
+	margin-right: 0px;
+}
+
+header h1 {
+	margin-left: 0px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	position: relative;
+}
+
+header p {
+	position: static;
+	font-size: 20px;
+	text-transform: lowercase;
+	padding-top: 0; 
+	margin-top: 0;
+}
+
+.nav {
+	//position: relative;
+	display: flex;
+	border-color: white;
+	background-color: #1531BA;
+	margin: 0;
+
+}
+
+.nav a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 20px;
+}
+
+.nav a:hover {
+	color: black;
+	background-color: #1C43FF;
+}
+
+.nav ul li {
+	display: inline;
+	flex-direction: column;
+}
+
+/*header, nav {
+	position: fixed;
+}*/
+
+.hero-section {
+	background: url('../img/indianteam.jpg');
+	background-size: cover;
+	background-position: center;
+	//width:100wh;
+	height: 100vh;
+	display: flex;
+	
+}
+
+.hero-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 3em;
+
+}
