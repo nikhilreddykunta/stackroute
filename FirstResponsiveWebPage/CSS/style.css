@@ -45,7 +45,7 @@ header p {
 }
 
 .nav {
-	//position: relative;
+	//position: fixed;
 	display: flex;
 	border-color: white;
 	background-color: #1531BA;
@@ -73,9 +73,11 @@ header p {
 
 /*header, nav {
 	position: fixed;
+	overflow: hidden;
 }*/
 
 .hero-section {
+	//margin-top: 233.5px;
 	background: url('../img/indianteam.jpg');
 	background-size: cover;
 	background-position: center;
@@ -95,5 +97,62 @@ header p {
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	font-size: 3em;
+}
 
+.footer {
+	background-color: #1531BA;
+	font-size: 15px;
+	display: flex;
+	text-align: center;
+}
+.footer a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.foot_statement {
+	flex: 25%;
+
+}
+
+.foot_explore {
+	flex: 25%;
+}
+
+.foot_explore_content  {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.foot_social {
+	flex: 25%;
+}
+
+.foot_social_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.foot_legal {
+	flex: 25%;
+}
+
+.foot_legal_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.foot_statement a {
+	
+	font-size: 20px;
+}
+
+.foot_social_content i {
+	float: left;
+}
+
+.foot_social_content {
+	position: relative;
 }
