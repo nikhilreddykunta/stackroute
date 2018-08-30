@@ -15,8 +15,6 @@ header {
 	top: 0;
 	width: 100vw;
 	height: 20%;
-	//overflow: hidden;
-	//margin: 0;
 }
 
 .fixed_bar_small {
@@ -29,9 +27,6 @@ header {
 	letter-spacing: 30px;
 	font-size: 25px;
 	background-color: #1C43FF;
-	//margin: 0;
-	
-
 }
 
 header img {
@@ -42,7 +37,6 @@ header img {
 	margin-top: 40px;
 	margin-right: 0px;
 	max-width: 100%;
-	//height: auto;
 }
 
 header h1 {
@@ -91,19 +85,11 @@ header p {
 	width: auto;
 }
 
-/*header, .nav {
-	position: fixed;
-	overflow: hidden;
-}*/
-
 .hero-section {
-	//margin-top: 28vh;
 	background: url('../img/indianteam.jpg');
 	background-size: contain;
-	//background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	//width:100%;
 	height: 100%;
 	display: flex;
 	margin-bottom: 0;
@@ -112,7 +98,6 @@ header p {
 }
 
 .hero-text {
-    //width: 600px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -189,15 +174,6 @@ header p {
 	flex-grow: 1;
 }
 
-/*.foot_content i {
-	float: left;
-	display: inline-block; 
-}
-
-.foot_content {
-	position: relative;
-}*/
-
 @media screen and (max-width: 768px) {
 	.nav a {
 		float: left;
@@ -216,6 +192,7 @@ header p {
 	}
 	.fixed_bar_small {
 		height: 30%;
+	}
 	
 	header p {
 		font-size: 14px;
